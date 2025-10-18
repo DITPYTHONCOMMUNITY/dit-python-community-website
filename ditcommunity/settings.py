@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-4dfd%+wsr#nuec8x(m4+t^bq&#dj-koxt$w9hg$ts48!b5rhww
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ditpython.deploy.tz', '127.0.0.1', 'localhost', '.deploy.tz']
+ALLOWED_HOSTS = ['ditpython.deploy.tz', '127.0.0.1', 'localhost']
+
 
 
 # Application definition
@@ -106,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'  # Adjust as needed
 
 USE_I18N = True
 
@@ -118,6 +119,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
