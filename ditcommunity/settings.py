@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4dfd%+wsr#nuec8x(m4+t^bq&#dj-koxt$w9hg$ts48!b5rhww
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ditpy.deploy.tz', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['ditpython.deploy.tz', '127.0.0.1', 'localhost']
 
 
 # Application definition
